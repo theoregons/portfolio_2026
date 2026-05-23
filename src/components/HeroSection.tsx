@@ -107,7 +107,7 @@ const HeroSection = () => {
                     initial={{opacity: 0, y: 30}}
                     animate={{opacity: 1, y: 0}}
                     transition={{duration: 0.8, delay: 0.8}}
-                    className="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-[#A0A0B0] text-sm mt-24"
+                    className="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-[#A0A0B0] text-sm sm:mt-20 lg:mt-24"
                 >
                   <span className="flex items-center gap-2">
                     <svg className="w-4 h-4 text-[#6C63FF]" fill="currentColor" viewBox="0 0 20 20">
@@ -145,7 +145,7 @@ const HeroSection = () => {
                            e.preventDefault();
                            document.querySelector("#about")?.scrollIntoView({behavior: "smooth"});
                        }}
-                       className="flex flex-col items-center gap-2 text-[#A0A0B0] hover:text-white transition-colors">
+                       className="hidden sm:flex flex-col items-center gap-2 text-[#A0A0B0] hover:text-white transition-colors">
                         <span className="text-xs tracking-widest">SCROLL DOWN</span>
                         <motion.div
                             animate={{y: [0, 8, 0]}}
