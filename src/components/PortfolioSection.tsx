@@ -12,14 +12,6 @@ const projects = [
         screenshot: `https://image.thum.io/get/width/600/crop/400/https://karismaacademy.com`,
     },
     {
-        name: "MyCTC",
-        url: "https://myctc.kodedev.my.id",
-        description: "Website perusahaan MyCTC Indonesia - solusi teknologi dan layanan digital untuk bisnis.",
-        tags: ["Company Profile", "Corporate", "Services"],
-        color: "#6C63FF",
-        screenshot: `https://image.thum.io/get/width/600/crop/400/https://myctc.kodedev.my.id`,
-    },
-    {
         name: "Ranch Market",
         url: "https://ranchmarket.co.id",
         description: "Website resmi Ranch Market - supermarket premium dengan produk segar berkualitas tinggi.",
@@ -28,20 +20,28 @@ const projects = [
         screenshot: `https://image.thum.io/get/width/600/crop/400/https://ranchmarket.co.id`,
     },
     {
-        name: "Kursus Karisma Academy",
-        url: "https://kursus.karismaacademy.com",
-        description: "Platform kursus online untuk peserta pelatihan dengan sistem manajemen pembelajaran (LMS) terintegrasi.",
-        tags: ["LMS", "E-Learning", "Dashboard"],
-        color: "#00D9FF",
-        screenshot: `https://image.thum.io/get/width/600/crop/400/https://kursus.karismaacademy.com`,
-    },
-    {
         name: "Hybrid Karisma Academy",
         url: "https://hybrid.karismaacademy.com",
         description: "Platform pembelajaran hybrid yang menggabungkan kelas online dan offline untuk pengalaman belajar optimal.",
         tags: ["Hybrid Learning", "Platform", "Education"],
         color: "#6C63FF",
         screenshot: `https://image.thum.io/get/width/600/crop/400/https://hybrid.karismaacademy.com`,
+    },
+    {
+        name: "MyCTC",
+        url: "https://myctc.kodedev.my.id",
+        description: "Website perusahaan MyCTC Indonesia - solusi teknologi dan layanan digital untuk bisnis.",
+        tags: ["Company Profile", "Corporate", "Services"],
+        color: "#6C63FF",
+        screenshot: `https://image.thum.io/get/width/600/crop/400/https://myctc.kodedev.my.id`,
+    },
+    {
+        name: "Kursus Karisma Academy",
+        url: "https://kursus.karismaacademy.com",
+        description: "Platform kursus online untuk peserta pelatihan dengan sistem manajemen pembelajaran (LMS) terintegrasi.",
+        tags: ["LMS", "E-Learning", "Dashboard"],
+        color: "#00D9FF",
+        screenshot: `https://image.thum.io/get/width/600/crop/400/https://kursus.karismaacademy.com`,
     },
 ];
 
