@@ -13,7 +13,7 @@ const projects = [
     },
     {
         name: "MyCTC",
-        url: "myctc.kodedev.my.id",
+        url: "https://myctc.kodedev.my.id",
         description: "Website perusahaan MyCTC Indonesia - solusi teknologi dan layanan digital untuk bisnis.",
         tags: ["Company Profile", "Corporate", "Services"],
         color: "#6C63FF",
